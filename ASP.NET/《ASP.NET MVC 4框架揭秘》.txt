@@ -1,0 +1,187 @@
+﻿封面; 1
+书名页; 2
+版权页; 3
+前言; 4
+目录; 10
+第1章 ASP.NET+MVC; 16
+	1.1 传统MVC模式; 17
+		1.1.1 自治视图; 17
+		1.1.2 什么是MVC模式; 18
+	1.2 MVC的变体; 19
+		1.2.1 MVP; 19
+		1.2.2 Model 2; 27
+		1.2.3 ASP.NETMVC与Model 2; 28
+	1.3 IIS/ASP.NET管道; 29
+		1.3.1 IIS 5.x与ASP.NET; 29
+		1.3.2 IIS 6.0与ASP.NET; 30
+		1.3.3 IIS 7.0与ASP.NET; 32
+		1.3.4 ASP.NET管道; 35
+	1.4 ASP.NET MVC是如何运行的; 40
+		1.4.1 建立在“迷你版” ASP.NET MVC上的Web应用; 40
+		1.4.2 URL路由; 42
+		1.4.3 Controller的激活; 46
+		1.4.4 Action的执行; 50
+第2章 URL路由; 56
+	2.1 ASP.NET路由系统; 57
+		2.1.1 请求URL与物理文件的分离; 57
+		2.1.2 实例演示：通过URL路由实现请求地址与.aspx页面的映射（S201）; 58
+		2.1.3 Route与RouteTable; 61
+		2.1.4 路由映射; 67
+		2.1.5 根据路由规则生成URL; 74
+	2.2 ASP.NET MVC扩展; 76
+		2.2.1 路由映射; 76
+		2.2.2 实例演示：注册路由映射与查看路由信息（S208）; 77
+		2.2.3 缺省URL参数; 80
+		2.2.4 基于Area的路由映射; 82
+		2.2.5 链接和URL的生成; 86
+	2.3 动态HttpHandler映射; 93
+		2.3.1 UrlRoutingModule; 93
+		2.3.2 PageRouteHandler与MvcRouteHandler; 94
+		2.3.3 ASP.NET路由系统扩展; 95
+第3章 Controller的激活; 101
+	3.1 总体设计; 102
+		3.1.1 Controller; 102
+		3.1.2 ControllerFactory; 107
+		3.1.3 ControllerBuilder; 108
+		3.1.4 Controller的激活与URL路由; 114
+	3.2 默认实现; 116
+		3.2.1 Controller类型的解析; 117
+		3.2.2 Controller类型的缓存; 120
+		3.2.3 Controller的释放和会话状态行为的控制; 121
+	3.3 IoC的应用; 123
+		3.3.1 从Unity来认识IoC; 123
+		3.3.2 Controller与Model的分离; 125
+		3.3.3 基于IoC的ControllerFactory; 126
+		3.3.4 基于IoC的ControllerActivator; 132
+		3.3.5 基于IoC的DependencyResolver; 134
+第4章 Model元数据的解析; 138
+	4.1 Model元数据及其定制; 139
+		4.1.1 Model元数据层次化结构; 139
+		4.1.2 基本Model元数据信息; 140
+		4.1.3 Model元数据的定制; 143
+		4.1.4 IMetadataAware接口; 157
+	4.2 Model元数据与Model模板; 161
+		4.2.1 实例演示：通过模板将布尔值显示为RadioButton（S409）; 162
+		4.2.2 预定义模板; 163
+		4.2.3 DataTypeName与模板名称; 172
+		4.2.4 模板的获取与执行; 175
+		4.2.5 实例演示：通过定制Model元数据和自定义模板实现预定义列表的呈现（S412）; 179
+	4.3 Model元数据的提供机制; 187
+		4.3.1 再谈ModelMetadata; 187
+		4.3.2 ModelMetadataProvider; 191
+		4.3.3 Model元数据提供系统的扩展; 195
+第5章 Model的绑定; 198
+	5.1 ControllerDescriptor、ActionDescriptor与ParameterDescriptor; 199
+		5.1.1 ControllerDescriptor; 199
+		5.1.2 ActionDescriptor; 204
+		5.1.3 ParameterDescriptor; 208
+	5.2 ValueProvider; 211
+		5.2.1 NameValueCollectionValueProvider; 212
+		5.2.2 DictionaryValueProvider; 218
+		5.2.3 ValueProviderFactory; 226
+		5.2.4 ValueProviderFactories; 226
+	5.3 ModelBinder; 230
+		5.3.1 ModelBinder与ModelBinderProvider; 230
+		5.3.2 ModelState与Model绑定; 238
+		5.3.3 ModelBindingContext的创建; 242
+	5.4 Model绑定的默认实现; 243
+		5.4.1 简单类型; 244
+		5.4.2 复杂类型; 247
+		5.4.3 数组; 253
+		5.4.4 集合; 261
+		5.4.5 字典; 263
+第6章 Model的验证; 269
+	6.1 ModelValidator与ModelValidatorProvider; 270
+		6.1.1 ModelValidator; 270
+		6.1.2 ModelValidatorProvider; 273
+		6.1.3 ModelValidatorProviders; 279
+	6.2 Model绑定与验证; 284
+		6.2.1 ModelState; 284
+		6.2.2 验证消息的呈现; 287
+		6.2.3 Model绑定中的验证; 293
+	6.3 基于数据注解特性的Model验证; 298
+		6.3.1 ValidationAttribute特性; 298
+		6.3.2 DataAnnotationsModelValidator; 305
+		6.3.3 DataAnnotationsModelValidatorProvider; 307
+		6.3.4 将ValidationAttribute应用到参数上; 310
+		6.3.5 一种Model类型，多种验证规则; 315
+	6.4 客户端验证; 322
+		6.4.1 jQuery验证; 322
+		6.4.2 基于jQuery的Model验证; 326
+		6.4.3 自定义验证; 330
+第7章 Action的执行; 335
+	7.1 异步Action的定义; 336
+		7.1.1 基于线程池的请求处理机制; 336
+		7.1.2 两种异步Action方法的定义; 337
+		7.1.3 AsyncManager; 339
+	7.2 Action方法的执行; 345
+		7.2.1 MvcHandler对请求的处理; 345
+		7.2.2 Controller的执行; 345
+		7.2.3 ActionInvoker的执行; 346
+		7.2.4 ControllerDescriptor的同步与异步; 351
+		7.2.5 ActionDescriptor的执行; 354
+	7.3 筛选器的执行; 360
+		7.3.1 Filter及其提供机制; 360
+		7.3.2 AuthorizationFilter; 370
+		7.3.3 ActionFilter; 380
+		7.3.4 ExceptionFilter; 386
+		7.3.5 实例演示：集成EntLib实现自动化异常处理（S713, S714, S715）; 388
+		7.3.6 ResultFilter; 402
+第8章 View的呈现; 405
+	8.1 ActionResult; 406
+		8.1.1 EmptyResult; 406
+		8.1.2 ContentResult; 407
+		8.1.3 FileResult; 413
+		8.1.4 JavaScriptResult; 417
+		8.1.5 JsonResult; 420
+		8.1.6 HttpStatusCodeResult; 423
+		8.1.7 RedirectResult/RedirectToRouteResult; 424
+	8.2 ViewResult与ViewEngine; 426
+		8.2.1 View引擎中的View; 426
+		8.2.2 ViewEngine; 428
+		8.2.3 ViewResult的执行; 430
+	8.3 Razor引擎; 438
+		8.3.1 View的编译原理; 438
+		8.3.2 WebViewPage与WebViewPage&lt\;TModel&gt\;; 442
+		8.3.3 RazorView; 447
+		8.3.4 RazorViewEngine; 456
+第9章 ASP.NET Web API; 460
+	9.1 Web、REST与Web API; 461
+		9.1.1 Web如此简单; 461
+		9.1.2 REST是什么; 462
+		9.1.3 ASP.NET Web API; 465
+	9.2 服务端管道; 473
+		9.2.1 ASP.NET Web API管道式设计; 474
+		9.2.2 HttpMessageHandler; 476
+		9.2.3 HttpServer; 479
+		9.2.4 实例演示：自定义HttpMessageHandler实现HTTP方法重写（S903）; 484
+	9.3 HttpControllerDispatcher; 486
+		9.3.1 HttpController的激活; 487
+		9.3.2 HttpController的执行; 500
+		9.3.3 Action的选择; 501
+		9.3.4 Model元数据的解析; 507
+		9.3.5 Action参数绑定; 510
+		9.3.6 Model验证; 523
+		9.3.7 Action的执行与结果的响应; 527
+	9.4 Web API的调用和自我寄宿; 531
+		9.4.1 HttpClient; 531
+		9.4.2 HttpSelfHostServer; 536
+第10章 案例实践; 542
+	10.1 功能性简介; 543
+		10.1.1 商品列表的呈现; 543
+		10.1.2 定购商品; 545
+		10.1.3 登录与错误页面; 546
+	10.2 设计概述; 547
+		10.2.1 Controller-Service-Repository; 547
+		10.2.2 IoC的应用; 551
+		10.2.3 AOP的应用; 554
+		10.2.4 异常处理; 560
+	10.3 编程实现; 561
+		10.3.1 数据表的创建; 561
+		10.3.2 Repository; 563
+		10.3.3 Service; 567
+		10.3.4 路由注册和布局; 570
+		10.3.5 ProductController; 573
+		10.3.6 OrderController; 580
+		10.3.7 AccountController; 586
+附录A 实例列表; 590
