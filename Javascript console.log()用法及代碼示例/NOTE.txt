@@ -1,0 +1,14 @@
+網頁程式除錯/Debug 設置中斷點/LOG提示的方法
+
+資料來源: https://vimsky.com/zh-tw/examples/usage/javascript-console-log-with-examples.html
+
+<script> 
+var a = 2; 
+console.log(a); 
+</script>
+
+<script language="javascript">
+alert('測試文字');
+alert('測試文字第一行<br>測試文字第二行');
+alert('測試文字第一行\n測試文字第二行');
+</script>
