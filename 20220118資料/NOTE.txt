@@ -1,0 +1,28 @@
+基於OpencvCV的情緒檢測(喜怒哀樂)
+資料來源: https://mp.weixin.qq.com/s/dR8G2uLb_IzmmTflgQKDMw
+https://github.com/karansjc1/emotion-detection
+
+基於python和OpenCV構建智能停車系統
+資料來源: https://mp.weixin.qq.com/s/SONZ3ndPSKkg0o01DUNxfQ
+
+機器學習神器Scikit-Learn保姆級入門教學/教程
+資料來源: https://mp.weixin.qq.com/s/33ms-_3Twc3AEH2jegNjUQ
+https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
+
+一份專門給初學者的pytorch視頻(youtube)教學/教程
+資料來源: https://mp.weixin.qq.com/s/fi9gdBmDDkWEkVtvsple2Q
+https://github.com/python-engineer/pytorchTutorial
+
+使用5行代碼的實時圖像(影像)分割 [PixelLib]
+資料來源: https://mp.weixin.qq.com/s/y3ClFJgB8JpGakTBQL-vZQ
+https://github.com/ayoolaolafenwa/PixelLib
+
+這大概是用Python寫GUI最快的方式了(PySimpleGUI教學)
+資料來源: https://mp.weixin.qq.com/s/lYupCtPxF_9N6scPy3P6zw
+https://github.com/PySimpleGUI/PySimpleGUI
+
+再見了VMware，一款更輕量級的虛擬機(Multipass)
+資料來源: https://mp.weixin.qq.com/s/KodOpSL52BlL28_0rCwXhQ
+https://multipass.run/
+
+笑畫圖(20220118) ~ 亂搞就是王道
