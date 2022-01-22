@@ -1,0 +1,1 @@
+資料來源: https://github.com/HUTOYP/AES128_ECB_PKCS5Padding
