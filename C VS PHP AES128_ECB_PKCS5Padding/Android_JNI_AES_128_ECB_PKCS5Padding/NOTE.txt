@@ -1,0 +1,7 @@
+Android_JNI_AES_128_ECB_PKCS5Padding
+
+https://github.com/yekq/Android_JNI_AES_128_ECB_PKCS5Padding
+
+支持不定长数据的加解密,测试过与PHP的结果互通
+
+AES_128_ECB From https://github.com/kokke/tiny-AES128-C
