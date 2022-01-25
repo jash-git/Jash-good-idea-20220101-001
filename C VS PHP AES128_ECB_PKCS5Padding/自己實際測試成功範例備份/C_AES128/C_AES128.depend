@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1643078815 source:c:\users\student\downloads\c_aes128\aes.c
+	"aes.h"
+
+1643079071 c:\users\student\downloads\c_aes128\aes.h
+	<stdlib.h>
+	<stdint.h>
+	"base64.h"
+
+1643079214 c:\users\student\downloads\c_aes128\base64.h
+
+1643079192 source:c:\users\student\downloads\c_aes128\base64.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"base64.h"
+
+1643077656 source:c:\users\student\downloads\c_aes128\main.c
+	<stdio.h>
+	<stdlib.h>
+	"base64.h"
+	"aes.h"
+

@@ -1,0 +1,13 @@
+00_分道揚鑣.gif
+01_難以抉擇.jpg
+02_新班徽.jpg
+03_愛情的種類.jpg
+04_誠實VS乘十.jpg
+05_視力檢查.jpg
+06_超讚解題.jpg
+07_茶碗蒸.jpg
+08_駕照VS三寶.jpg
+09_幫助記憶.jpg
+10_謊話.jpg
+list.txt
+XXX.bat

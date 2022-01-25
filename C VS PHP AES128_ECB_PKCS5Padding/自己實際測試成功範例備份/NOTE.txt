@@ -1,0 +1,6 @@
+資料來源: https://github.com/shoneworn/JNI_AES-ECB-PKCS5Padding
+https://blog.csdn.net/biubiuibiu/article/details/78326358
+
+結果:
+Security::encrypt:IDcqXMG9R6tp5Vqi1RO92A==
+Security::decrypt:example
