@@ -1,0 +1,7 @@
+Arduino UNO R3 使用自建C函式庫[How to call C functions from Arduino sketch?]
+
+
+
+資料來源: https://tomyam-yang.blogspot.com/2018/07/arduino-uno-r3-c.html
+
+https://arduino.stackexchange.com/questions/946/how-to-call-c-functions-from-arduino-sketch
