@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1643351895 source:c:\users\user\desktop\arduino_base64_cpp_lib\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	"Arduino_Base64_C_lib.h"
+
+1643350553 c:\users\user\desktop\arduino_base64_cpp_lib\arduino_base64_c_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
